@@ -1,0 +1,19 @@
+body{
+    background-image: url("images/campus_map.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#dot {
+    background-image: url("dot/download.png");
+    width:10px;
+    height:10px;
+    position: relative;
+    bottom: 1000px;
+    left: 500px;
+}
+
+#mTable {
+    width: 35%;
+    margin-left: 60%;
+    border: 1px black solid;
+}
