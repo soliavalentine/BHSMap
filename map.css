@@ -4,16 +4,46 @@ body{
     background-position: left top;
 }
 #dot {
-    background-image: url("dot/download.png");
-    width:10px;
-    height:10px;
+    width:15px;
+    height:15px;
     position: relative;
-    bottom: 1000px;
-    left: 500px;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#dot2 {
+    width:15px;
+    height:15px;
+    position: relative;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #mTable {
     width: 35%;
     margin-left: 60%;
     border: 1px black solid;
+}
+
+
+
+
+
+
+/* info here:  https://www.w3schools.com/css/css3_animations.asp */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
 }
