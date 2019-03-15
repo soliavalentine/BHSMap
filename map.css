@@ -6,7 +6,7 @@ body{
 #dot {
     width:15px;
     height:15px;
-    position: relative;
+    position: absolute;
     border-radius: 100%;
     border: 2px black solid;
     top: 0px;
@@ -19,7 +19,7 @@ body{
 #dot2 {
     width:15px;
     height:15px;
-    position: relative;
+    position: absolute;
     border-radius: 100%;
     border: 2px black solid;
     top: 0px;
