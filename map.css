@@ -1,7 +1,22 @@
+.resetNow {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
 body{
     background-image: url("images/campus_map.png");
     background-repeat: no-repeat;
     background-position: left top;
+    background-color: darkseagreen;
+}
+#image{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    left:700px;
+    border-color: darkseagreen;
 }
 #dot {
     width:15px;
@@ -28,17 +43,126 @@ body{
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-
+#dot3 {
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#dot4 {
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#dot5 {
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#dot6 {
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#dot7 {
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 #mTable {
     width: 35%;
     margin-left: 60%;
-    border: 1px black solid;
 }
-
-
-
-
-
+#tag{
+    background-color: powderblue;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:50px;
+    height: 30px;
+}
+#tag2{
+    background-color: powderblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:50px;
+    height: 30px;
+}
+#tag3{
+    background-color: powderblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:50px;
+    height: 30px;
+}
+#tag4{
+    background-color: powderblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:50px;
+    height: 30px;
+}
+#tag5{
+    background-color: powderblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:50px;
+    height: 30px;
+}
+#tag6{
+    background-color: powderblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:50px;
+    height: 30px;
+}
+#tag7{
+    background-color: powderblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:50px;
+    height: 30px;
+}
 
 /* info here:  https://www.w3schools.com/css/css3_animations.asp */
 @keyframes example {
