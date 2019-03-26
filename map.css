@@ -10,164 +10,62 @@ body{
     background-position: left top;
     background-color: darkseagreen;
 }
+body{
+    background-image: url("images/campus_map.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: darkgray;
+}
+#title{
+    font-family: Arial;
+    font-size: larger;
+    position: relative;
+    left: 67%;
+}
+#subtitle{
+    font-family: Arial;
+    position: relative;
+    left: 20%;
+}
 #image{
     width: 300px;
     height: 300px;
     position: relative;
     top: 20px;
     left:700px;
-    border-color: darkseagreen;
-}
-#dot {
-    width:15px;
-    height:15px;
-    position: absolute;
-    border-radius: 100%;
-    border: 2px black solid;
-    top: 0px;
-    left: 0px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-#dot2 {
-    width:15px;
-    height:15px;
-    position: absolute;
-    border-radius: 100%;
-    border: 2px black solid;
-    top: 0px;
-    left: 0px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-#dot3 {
-    width:15px;
-    height:15px;
-    position: absolute;
-    border-radius: 100%;
-    border: 2px black solid;
-    top: 0px;
-    left: 0px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-#dot4 {
-    width:15px;
-    height:15px;
-    position: absolute;
-    border-radius: 100%;
-    border: 2px black solid;
-    top: 0px;
-    left: 0px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-#dot5 {
-    width:15px;
-    height:15px;
-    position: absolute;
-    border-radius: 100%;
-    border: 2px black solid;
-    top: 0px;
-    left: 0px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-#dot6 {
-    width:15px;
-    height:15px;
-    position: absolute;
-    border-radius: 100%;
-    border: 2px black solid;
-    top: 0px;
-    left: 0px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-#dot7 {
-    width:15px;
-    height:15px;
-    position: absolute;
-    border-radius: 100%;
-    border: 2px black solid;
-    top: 0px;
-    left: 0px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
 }
 #mTable {
     width: 35%;
     margin-left: 60%;
 }
-#tag{
-    background-color: powderblue;
+.dots {
+    width:15px;
+    height:15px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px black solid;
+    top: 0px;
+    left: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.tags{
+    background-color: white;
     position: absolute;
     top:0px;
     left:0px;
     width:50px;
     height: 30px;
 }
-#tag2{
-    background-color: powderblue;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:50px;
-    height: 30px;
+#error{
+    position: relative;
+    left: 65%;
 }
-#tag3{
-    background-color: powderblue;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:50px;
-    height: 30px;
-}
-#tag4{
-    background-color: powderblue;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:50px;
-    height: 30px;
-}
-#tag5{
-    background-color: powderblue;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:50px;
-    height: 30px;
-}
-#tag6{
-    background-color: powderblue;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:50px;
-    height: 30px;
-}
-#tag7{
-    background-color: powderblue;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:50px;
-    height: 30px;
-}
-
 /* info here:  https://www.w3schools.com/css/css3_animations.asp */
 @keyframes example {
     0%   {background-color: red;}
-    25%  {background-color: yellow;}
+    25% {background-color: yellow;}
     50%  {background-color: blue;}
     100% {background-color: green;}
 }

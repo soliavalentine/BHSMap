@@ -8,149 +8,149 @@
     <script src="map.js"></script>
 </head>
 <body>
-
+<div id ="title">Find my Classes:</div>
 <div id="mTable">
+    <br>
+    <div id = "subtitle">
+        Input Your Schedule:
+    </div>
+    <table id="table">
+        <tr>
+            <td>
+                Period 1 Class Name:
+            </td>
+            <td>
+                Room Number:
+            </td>
 
-<div id = "title">
-    Input Your Schedule:
-</div>
-<table id="table">
-    <tr>
-        <td>
-            Period 1 Class Name:
-        </td>
-        <td>
-            Room Number:
-        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="class1">
+            </td>
+            <td>
+                <input type="text"id="room1">
+            </td>
 
-    </tr>
-    <tr>
-        <td>
-            <input type="text" id="class1" value="math">
-        </td>
-        <td>
-            <input type="text"id="room1" value="h301">
-        </td>
+        </tr>
+        <tr>
+            <td>Period 2 Class Name:
+            </td>
+            <td>
+                Room Number:
+            </td>
 
-    </tr>
-    <tr>
-        <td>Period 2 Class Name:
-        </td>
-        <td>
-            Room Number:
-        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"id="class2">
+            </td>
+            <td>
+                <input type="text"id="room2">
+            </td>
+        <tr>
+            <td>
+                Period 3 Class Name:
+            </td>
+            <td>
+                Room Number:
+            </td>
 
-    </tr>
-    <tr>
-        <td>
-            <input type="text"id="class2">
-        </td>
-        <td>
-            <input type="text"id="room2"value="c232">
-        </td>
-    <tr>
-        <td>
-            Period 3 Class Name:
-        </td>
-        <td>
-            Room Number:
-        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="class3">
+            </td>
+            <td>
+                <input type="text"id="room3">
+            </td>
 
-    </tr>
-    <tr>
-        <td>
-            <input type="text" id="class3">
-        </td>
-        <td>
-            <input type="text"id="room3"value="g207">
-        </td>
+        </tr>
+        <tr>
+            <td>Period 4 Class Name:
+            </td>
+            <td>
+                Room Number:
+            </td>
 
-    </tr>
-    <tr>
-        <td>Period 4 Class Name:
-        </td>
-        <td>
-            Room Number:
-        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"id="class4">
+            </td>
+            <td>
+                <input type="text"id="room4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Period 5 Class Name:
+            </td>
+            <td>
+                Room Number:
+            </td>
 
-    </tr>
-    <tr>
-        <td>
-            <input type="text"id="class4">
-        </td>
-        <td>
-            <input type="text"id="room4"value="h205">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Period 5 Class Name:
-        </td>
-        <td>
-            Room Number:
-        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"id="class5">
+            </td>
+            <td>
+                <input type="text"id="room5">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Period 6 Class Name:
+            </td>
+            <td>
+                Room Number:
+            </td>
 
-    </tr>
-    <tr>
-        <td>
-            <input type="text"id="class5">
-        </td>
-        <td>
-            <input type="text"id="room5"value="c126">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Period 6 Class Name:
-        </td>
-        <td>
-            Room Number:
-        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"id="class6">
+            </td>
+            <td>
+                <input type="text"id="room6">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Period 7 Class Name:
+            </td>
+            <td>
+                Room Number:
+            </td>
 
-    </tr>
-    <tr>
-        <td>
-            <input type="text"id="class6">
-        </td>
-        <td>
-            <input type="text"id="room6"value="m">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Period 7 Class Name:
-        </td>
-        <td>
-            Room Number:
-        </td>
-
-    </tr>
-    <tr>
-        <td>
-            <input type="text"id="class7">
-        </td>
-        <td>
-            <input type="text"id="room7">
-        </td>
-    </tr>
-</table>
-    <div id="button1"><button onclick="locate()">Go!</button></div>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"id="class7">
+            </td>
+            <td>
+                <input type="text"id="room7">
+            </td>
+        </tr>
+    </table>
+    <div id="button1"><button onclick="start()">Go!</button></div>
     <div id="button2"><button onclick="reset()">Reset</button></div>
 </div>
-<div id="dot">&nbsp;</div>
-<div class="resetMe"id="dot2">&nbsp;</div>
-<div class="resetMe"id="dot3">&nbsp;</div>
-<div class="resetMe"id="dot4">&nbsp;</div>
-<div class="resetMe"id="dot5">&nbsp;</div>
-<div class="resetMe"id="dot6">&nbsp;</div>
-<div class="resetMe"id="dot7">&nbsp;</div>
-<div class="resetMe"id="tag"></div>
-<div class="resetMe"id="tag2"></div>
-<div class="resetMe"id="tag3"></div>
-<div class="resetMe"id="tag4"></div>
-<div class="resetMe"id="tag5"></div>
-<div class="resetMe"id="tag6"></div>
-<div class="resetMe"id="tag7"></div>
+<div class="dots" id="dot">&nbsp;</div>
+<div class="dots"id="dot2">&nbsp;</div>
+<div class="dots"id="dot3">&nbsp;</div>
+<div class="dots"id="dot4">&nbsp;</div>
+<div class="dots"id="dot5">&nbsp;</div>
+<div class="dots"id="dot6">&nbsp;</div>
+<div class="dots"id="dot7">&nbsp;</div>
+<div class="tags"id="tag"></div>
+<div class="tags"id="tag2"></div>
+<div class="tags"id="tag3"></div>
+<div class="tags"id="tag4"></div>
+<div class="tags"id="tag5"></div>
+<div class="tags"id="tag6"></div>
+<div class="tags"id="tag7"></div>
+<div id ="error"></div>
 <img id="image" src="images/bhs.jpg">
 </body>
-</html>
